@@ -21,10 +21,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="40" height="40" alt="FastAPI" />
 </p>
 
-**言語**: JavaScript, TypeScript, Python, Go, Ruby, Scala, Rust, 
-
-**フレームワーク**: React, Next.js, Vue.js, Rails, Flask, FastAPI, 
-
 ### ☁️ インフラ・クラウド
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="40" height="40" alt="Google Cloud" />
@@ -36,19 +32,11 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GitHub" />
 </p>
 
-**クラウド**: Google Cloud, AWS, Azure, Firebase, 
-
-**DevOps**: Docker, Kubernetes, GitHub, 
-
 ### 🗄️ データベース・API
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySQL" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" width="40" height="40" alt="GraphQL" />
 </p>
-
-**データベース**: MySQL, 
-
-**API**: GraphQL, 
 
 ## 🚀 プロフィール
 
