@@ -2,6 +2,14 @@
 
 スタートアップ環境を主体に、迅速な**DevOps**導入や**クラウドインフラ**構築、**AI活用開発**まで幅広く担当。
 
+## 🚀 プロフィール
+
+- **CI/CDパイプラインの設計・運用**: GitHub Actions、CircleCIを使用した自動化
+- **コンテナ環境構築**: Docker/Kubernetes環境の構築・運用
+- **スキーマ駆動開発**: GraphQL、OpenAPIを活用した開発
+- **クラウドインフラ構築**: GCP、AWS、Azureでのインフラ設計・運用
+- **AI活用開発**: 生成AIを活用した開発効率化
+
 ## 🛠️ 技術的スキル
 
 ### 💻 言語・フレームワーク
@@ -37,14 +45,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySQL" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" width="40" height="40" alt="GraphQL" />
 </p>
-
-## 🚀 プロフィール
-
-- **CI/CDパイプラインの設計・運用**: GitHub Actions、CircleCIを使用した自動化
-- **コンテナ環境構築**: Docker/Kubernetes環境の構築・運用
-- **スキーマ駆動開発**: GraphQL、OpenAPIを活用した開発
-- **クラウドインフラ構築**: GCP、AWS、Azureでのインフラ設計・運用
-- **AI活用開発**: 生成AIを活用した開発効率化
 
 ## 🤝 お問い合わせ
 
