@@ -118,26 +118,14 @@
       "category": "api"
     }
   ],
-  "skills": [
-    {
-      "title": "CI/CDパイプラインの設計・運用",
-      "description": "GitHub Actions、CircleCIを使用した自動化"
-    },
-    {
-      "title": "コンテナ環境構築",
-      "description": "Docker/Kubernetes環境の構築・運用"
-    },
-    {
-      "title": "スキーマ駆動開発",
-      "description": "GraphQL、OpenAPIを活用した開発"
-    },
-    {
-      "title": "クラウドインフラ構築",
-      "description": "GCP、AWS、Azureでのインフラ設計・運用"
-    },
-    {
-      "title": "AI活用開発",
-      "description": "生成AIを活用した開発効率化"
-    }
+  "capabilities": [
+    "Webアプリケーションの一気通貫開発（フロントエンド・バックエンド・インフラ）",
+    "クラウドネイティブアプリケーションの設計・構築",
+    "CI/CDパイプラインによる開発・運用の自動化",
+    "コンテナ技術（Docker/Kubernetes）を活用したスケーラブルなシステム構築",
+    "API設計・GraphQL/OpenAPIを使ったスキーマ駆動開発",
+    "生成AIを活用した開発効率化・自動化ツールの構築",
+    "マルチクラウド環境（AWS/GCP/Azure）でのインフラ設計・運用",
+    "アジャイル開発・DevOps文化の導入・推進"
   ]
 }
