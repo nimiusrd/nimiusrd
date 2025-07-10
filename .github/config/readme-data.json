@@ -49,7 +49,7 @@
     },
     {
       "name": "Next.js",
-      "icon": "nextjs/nextjs-original.svg",
+      "icon": "nextjs/nextjs-original-wordmark.svg",
       "category": "framework"
     },
     {
@@ -69,7 +69,7 @@
     },
     {
       "name": "FastAPI",
-      "icon": "fastapi/fastapi-original.svg",
+      "icon": "fastapi/fastapi-original-wordmark.svg",
       "category": "framework"
     },
     {
@@ -104,7 +104,7 @@
     },
     {
       "name": "GitHub",
-      "icon": "github/github-original.svg",
+      "icon": "github/github-original-wordmark.svg",
       "category": "devops"
     },
     {

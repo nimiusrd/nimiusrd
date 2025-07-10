@@ -60,6 +60,7 @@ npm run test-icons
 - 22個の技術アイコンのURL有効性を自動チェック
 - 無効なアイコンの検出と修正候補提案
 - GitHub Actionsでの自動検証
+- ダークテーマでの視認性を考慮したアイコン選択（wordmarkバリエーション使用）
 
 ### 4. **GitHub Actions**
 - **update-readme.yml**: mainブランチpush時に実行
@@ -77,13 +78,15 @@ npm run test-icons
 
 1. **データ更新**: `.github/config/readme-data.json`を編集
 2. **テンプレート修正**: `README.template.hbs`を編集
-3. **自動生成**: README.mdは手動編集禁止
+3. **自動生成**: README.mdは手動編集禁止（GitHub Actionsで自動生成）
 4. **アイコン追加**: 必ず`npm run validate-icons`で検証
-5. **プロフィール用途**: 宇田川さんのGitHubプロフィール表示
+5. **アイコン選択**: ダークテーマでの視認性を考慮し、黒いアイコンは`-wordmark`バリエーションを使用
+6. **プロフィール用途**: 宇田川さんのGitHubプロフィール表示
 
 ## アーキテクチャの特徴
 
 - **保守性**: データとテンプレートの分離
 - **拡張性**: 新技術やスキルの追加が容易
 - **品質保証**: アイコンURL検証で表示エラー防止
+- **視認性**: ダークテーマ対応でアイコンの見やすさを確保
 - **自動化**: GitHub Actionsで運用負荷軽減

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-07-10T08:58:03.977Z",
+  "timestamp": "2025-07-10T11:18:37.998Z",
   "summary": {
     "total": 22,
     "valid": 22,
@@ -66,7 +66,7 @@
     {
       "name": "Next.js",
       "category": "framework",
-      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
       "status": 200,
       "valid": true
     },
@@ -94,7 +94,7 @@
     {
       "name": "FastAPI",
       "category": "framework",
-      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
       "status": 200,
       "valid": true
     },
@@ -143,7 +143,7 @@
     {
       "name": "GitHub",
       "category": "devops",
-      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg",
       "status": 200,
       "valid": true
     },
