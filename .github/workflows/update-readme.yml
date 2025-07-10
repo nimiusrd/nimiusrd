@@ -9,9 +9,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       # ソース取得
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # Node.js（スクリプト実行環境）をセットアップ
       - name: Setup Node.js
@@ -35,6 +39,5 @@ jobs:
       - name: Commit files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          branch: main
           commit_message: "ci: 自動更新された README を反映"
           file_pattern: README.md
