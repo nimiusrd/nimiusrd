@@ -9,112 +9,112 @@
   "technologies": [
     {
       "name": "JavaScript",
-      "icon": "javascript/javascript-original.svg",
+      "icon": "devicon-javascript-plain",
       "category": "language"
     },
     {
       "name": "TypeScript",
-      "icon": "typescript/typescript-original.svg",
+      "icon": "devicon-typescript-plain",
       "category": "language"
     },
     {
       "name": "Python",
-      "icon": "python/python-original.svg",
+      "icon": "devicon-python-plain",
       "category": "language"
     },
     {
       "name": "Go",
-      "icon": "go/go-original.svg",
+      "icon": "devicon-go-original-wordmark",
       "category": "language"
     },
     {
       "name": "Ruby",
-      "icon": "ruby/ruby-original.svg",
+      "icon": "devicon-ruby-plain",
       "category": "language"
     },
     {
       "name": "Scala",
-      "icon": "scala/scala-original.svg",
+      "icon": "devicon-scala-plain",
       "category": "language"
     },
     {
       "name": "Rust",
-      "icon": "rust/rust-original.svg",
+      "icon": "devicon-rust-plain",
       "category": "language"
     },
     {
       "name": "React",
-      "icon": "react/react-original.svg",
+      "icon": "devicon-react-original",
       "category": "framework"
     },
     {
       "name": "Next.js",
-      "icon": "nextjs/nextjs-original-wordmark.svg",
+      "icon": "devicon-nextjs-original",
       "category": "framework"
     },
     {
       "name": "Vue.js",
-      "icon": "vuejs/vuejs-original.svg",
+      "icon": "devicon-vuejs-plain",
       "category": "framework"
     },
     {
       "name": "Rails",
-      "icon": "rails/rails-original-wordmark.svg",
+      "icon": "devicon-rails-plain",
       "category": "framework"
     },
     {
       "name": "Flask",
-      "icon": "flask/flask-original.svg",
+      "icon": "devicon-flask-original",
       "category": "framework"
     },
     {
       "name": "FastAPI",
-      "icon": "fastapi/fastapi-original-wordmark.svg",
+      "icon": "devicon-fastapi-plain",
       "category": "framework"
     },
     {
       "name": "Google Cloud",
-      "icon": "googlecloud/googlecloud-original.svg",
+      "icon": "devicon-googlecloud-plain",
       "category": "cloud"
     },
     {
       "name": "AWS",
-      "icon": "amazonwebservices/amazonwebservices-plain-wordmark.svg",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
       "category": "cloud"
     },
     {
       "name": "Azure",
-      "icon": "azure/azure-original.svg",
+      "icon": "devicon-azure-plain",
       "category": "cloud"
     },
     {
       "name": "Firebase",
-      "icon": "firebase/firebase-original.svg",
+      "icon": "devicon-firebase-plain",
       "category": "cloud"
     },
     {
       "name": "Docker",
-      "icon": "docker/docker-original.svg",
+      "icon": "devicon-docker-plain",
       "category": "devops"
     },
     {
       "name": "Kubernetes",
-      "icon": "kubernetes/kubernetes-original.svg",
+      "icon": "devicon-kubernetes-plain",
       "category": "devops"
     },
     {
       "name": "GitHub",
-      "icon": "github/github-original-wordmark.svg",
+      "icon": "devicon-github-original",
       "category": "devops"
     },
     {
       "name": "MySQL",
-      "icon": "mysql/mysql-original.svg",
+      "icon": "devicon-mysql-plain",
       "category": "database"
     },
     {
       "name": "GraphQL",
-      "icon": "graphql/graphql-plain.svg",
+      "icon": "devicon-graphql-plain",
       "category": "api"
     }
   ],
