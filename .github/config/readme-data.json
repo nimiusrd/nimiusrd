@@ -78,11 +78,6 @@
       "category": "cloud"
     },
     {
-      "name": "AWS",
-      "icon": "amazonwebservices/amazonwebservices-plain-wordmark.svg",
-      "category": "cloud"
-    },
-    {
       "name": "Azure",
       "icon": "azure/azure-original.svg",
       "category": "cloud"
