@@ -5,7 +5,7 @@ import Handlebars from 'handlebars';
 // Handlebarsヘルパー関数を登録
 Handlebars.registerHelper('techIcon', function(icon, name) {
   return new Handlebars.SafeString(
-    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${icon}" width="40" height="40" alt="${name}" />`
+    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${icon}" width="40" height="40" alt="${name}" style="background-color: white; padding: 4px; border-radius: 4px; margin: 2px;" />`
   );
 });
 
