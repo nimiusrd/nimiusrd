@@ -58,10 +58,6 @@
 - **クラウドインフラ構築**: GCP、AWS、Azureでのインフラ設計・運用
 - **AI活用開発**: 生成AIを活用した開発効率化
 
-## 📈 GitHub Stats
-
-![nimiusrd's GitHub stats](https://github-readme-stats.vercel.app/api?username=nimiusrd&show_icons=true&theme=radical)
-
 ## 🤝 お問い合わせ
 
 - 📫 Email: nimiusrd@gmail.com
