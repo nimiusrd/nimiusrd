@@ -3,8 +3,7 @@ import https from 'https';
 import http from 'http';
 import { URL } from 'url';
 
-// Font version使用のため、URL検証は不要
-// const DEV_ICONS_BASE_URL = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/';
+const DEV_ICONS_BASE_URL = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/';
 
 /**
  * HTTPリクエストでURLの有効性を確認
@@ -46,17 +45,26 @@ function checkUrl(url) {
 }
 
 /**
- * Font versionのアイコンクラス名を検証
+ * 複数のURLを並行して検証
  */
-async function validateIconClasses(technologies) {
-  console.log(`🔍 Validating ${technologies.length} DevIcon font classes...`);
-  
-  const results = technologies.map(tech => ({
+async function validateIconUrls(technologies) {
+  const iconUrls = technologies.map(tech => ({
     name: tech.name,
     category: tech.category,
-    className: tech.icon,
-    valid: tech.icon.startsWith('devicon-') && tech.icon.length > 8
+    url: `${DEV_ICONS_BASE_URL}${tech.icon}`
   }));
+  
+  console.log(`🔍 Validating ${iconUrls.length} icon URLs...`);
+  
+  const results = await Promise.all(
+    iconUrls.map(async (iconData) => {
+      const result = await checkUrl(iconData.url);
+      return {
+        ...iconData,
+        ...result
+      };
+    })
+  );
   
   return results;
 }
@@ -128,8 +136,8 @@ async function main() {
     const configPath = '.github/config/readme-data.json';
     const configData = JSON.parse(fs.readFileSync(configPath, 'utf8'));
     
-    // アイコンクラス名を検証
-    const results = await validateIconClasses(configData.technologies);
+    // アイコンURLを検証
+    const results = await validateIconUrls(configData.technologies);
     
     // 結果を分析
     const summary = analyzeResults(results);
