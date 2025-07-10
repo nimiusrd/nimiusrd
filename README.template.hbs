@@ -1,0 +1,68 @@
+# {{profile.name}} 👋
+
+{{profile.description}}
+
+## 🛠️ 技術的スキル
+
+### 💻 言語・フレームワーク
+<p align="left">
+{{#filterByCategory technologies "language"}}
+  {{{techIcon icon name}}}
+{{/filterByCategory}}
+{{#filterByCategory technologies "framework"}}
+  {{{techIcon icon name}}}
+{{/filterByCategory}}
+</p>
+
+**言語**: {{#filterByCategory technologies "language"}}{{name}}{{#unless @last}}, {{/unless}}{{/filterByCategory}}
+
+**フレームワーク**: {{#filterByCategory technologies "framework"}}{{name}}{{#unless @last}}, {{/unless}}{{/filterByCategory}}
+
+### ☁️ インフラ・クラウド
+<p align="left">
+{{#filterByCategory technologies "cloud"}}
+  {{{techIcon icon name}}}
+{{/filterByCategory}}
+{{#filterByCategory technologies "devops"}}
+  {{{techIcon icon name}}}
+{{/filterByCategory}}
+</p>
+
+**クラウド**: {{#filterByCategory technologies "cloud"}}{{name}}{{#unless @last}}, {{/unless}}{{/filterByCategory}}
+
+**DevOps**: {{#filterByCategory technologies "devops"}}{{name}}{{#unless @last}}, {{/unless}}{{/filterByCategory}}
+
+### 🗄️ データベース・API
+<p align="left">
+{{#filterByCategory technologies "database"}}
+  {{{techIcon icon name}}}
+{{/filterByCategory}}
+{{#filterByCategory technologies "api"}}
+  {{{techIcon icon name}}}
+{{/filterByCategory}}
+</p>
+
+**データベース**: {{#filterByCategory technologies "database"}}{{name}}{{#unless @last}}, {{/unless}}{{/filterByCategory}}
+
+**API**: {{#filterByCategory technologies "api"}}{{name}}{{#unless @last}}, {{/unless}}{{/filterByCategory}}
+
+## 🚀 プロフィール
+
+{{#each skills}}
+- **{{title}}**: {{description}}
+{{/each}}
+
+## 📈 GitHub Stats
+
+![nimiusrd's GitHub stats](https://github-readme-stats.vercel.app/api?username=nimiusrd&show_icons=true&theme=radical)
+
+## 🤝 お問い合わせ
+
+- 📫 Email: {{profile.email}}
+- 🌐 Blog: {{profile.blog}}
+- 🐙 GitHub: {{profile.github}}
+
+---
+
+*最終更新: {{formatDate currentDate}}*
+

@@ -1,0 +1,143 @@
+{
+  "profile": {
+    "name": "宇田川 悠大（@nimiusrd）",
+    "description": "スタートアップ環境を主体に、迅速な**DevOps**導入や**クラウドインフラ**構築、**AI活用開発**まで幅広く担当。",
+    "github": "https://github.com/nimiusrd",
+    "email": "nimiusrd@gmail.com",
+    "blog": "https://zenn.dev/nimiusrd"
+  },
+  "technologies": [
+    {
+      "name": "JavaScript",
+      "icon": "javascript/javascript-original.svg",
+      "category": "language"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "typescript/typescript-original.svg",
+      "category": "language"
+    },
+    {
+      "name": "Python",
+      "icon": "python/python-original.svg",
+      "category": "language"
+    },
+    {
+      "name": "Go",
+      "icon": "go/go-original.svg",
+      "category": "language"
+    },
+    {
+      "name": "Ruby",
+      "icon": "ruby/ruby-original.svg",
+      "category": "language"
+    },
+    {
+      "name": "Scala",
+      "icon": "scala/scala-original.svg",
+      "category": "language"
+    },
+    {
+      "name": "Rust",
+      "icon": "rust/rust-original.svg",
+      "category": "language"
+    },
+    {
+      "name": "React",
+      "icon": "react/react-original.svg",
+      "category": "framework"
+    },
+    {
+      "name": "Next.js",
+      "icon": "nextjs/nextjs-original.svg",
+      "category": "framework"
+    },
+    {
+      "name": "Vue.js",
+      "icon": "vuejs/vuejs-original.svg",
+      "category": "framework"
+    },
+    {
+      "name": "Rails",
+      "icon": "rails/rails-original-wordmark.svg",
+      "category": "framework"
+    },
+    {
+      "name": "Flask",
+      "icon": "flask/flask-original.svg",
+      "category": "framework"
+    },
+    {
+      "name": "FastAPI",
+      "icon": "fastapi/fastapi-original.svg",
+      "category": "framework"
+    },
+    {
+      "name": "Google Cloud",
+      "icon": "googlecloud/googlecloud-original.svg",
+      "category": "cloud"
+    },
+    {
+      "name": "AWS",
+      "icon": "amazonwebservices/amazonwebservices-plain-wordmark.svg",
+      "category": "cloud"
+    },
+    {
+      "name": "Azure",
+      "icon": "azure/azure-original.svg",
+      "category": "cloud"
+    },
+    {
+      "name": "Firebase",
+      "icon": "firebase/firebase-original.svg",
+      "category": "cloud"
+    },
+    {
+      "name": "Docker",
+      "icon": "docker/docker-original.svg",
+      "category": "devops"
+    },
+    {
+      "name": "Kubernetes",
+      "icon": "kubernetes/kubernetes-original.svg",
+      "category": "devops"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github/github-original.svg",
+      "category": "devops"
+    },
+    {
+      "name": "MySQL",
+      "icon": "mysql/mysql-original.svg",
+      "category": "database"
+    },
+    {
+      "name": "GraphQL",
+      "icon": "graphql/graphql-plain.svg",
+      "category": "api"
+    }
+  ],
+  "skills": [
+    {
+      "title": "CI/CDパイプラインの設計・運用",
+      "description": "GitHub Actions、CircleCIを使用した自動化"
+    },
+    {
+      "title": "コンテナ環境構築",
+      "description": "Docker/Kubernetes環境の構築・運用"
+    },
+    {
+      "title": "スキーマ駆動開発",
+      "description": "GraphQL、OpenAPIを活用した開発"
+    },
+    {
+      "title": "クラウドインフラ構築",
+      "description": "GCP、AWS、Azureでのインフラ設計・運用"
+    },
+    {
+      "title": "AI活用開発",
+      "description": "生成AIを活用した開発効率化"
+    }
+  ]
+}

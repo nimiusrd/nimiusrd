@@ -1,0 +1,40 @@
+name: Generate README
+
+# main への push で実行
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # ソース取得
+      - uses: actions/checkout@v4
+
+      # Node.js（スクリプト実行環境）をセットアップ
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # 依存ライブラリがあればインストール
+      - name: Install dependencies
+        run: npm ci
+
+      # アイコンURLの検証
+      - name: Validate icon URLs
+        run: node .github/scripts/validate-icons.js
+
+      # README 生成スクリプトを実行
+      - name: Generate README
+        run: node .github/scripts/generate-readme.js
+
+      # 変更があれば自動コミット＆プッシュ
+      - name: Commit files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          branch: main
+          commit_message: "ci: 自動更新された README を反映"
+          file_pattern: README.md

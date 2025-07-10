@@ -1,0 +1,38 @@
+name: Validate Icons
+
+# Pull Requestと手動実行で検証
+on:
+  pull_request:
+    paths:
+      - '.github/config/readme-data.json'
+      - '.github/scripts/validate-icons.js'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      # ソース取得
+      - uses: actions/checkout@v4
+
+      # Node.js環境をセットアップ
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # 依存関係をインストール
+      - name: Install dependencies
+        run: npm ci
+
+      # アイコンURLを検証
+      - name: Validate icon URLs
+        run: node .github/scripts/validate-icons.js
+
+      # 検証レポートをアップロード
+      - name: Upload validation report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: icon-validation-report
+          path: .github/reports/icon-validation-report.json
