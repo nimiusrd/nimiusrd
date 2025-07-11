@@ -4,7 +4,7 @@ import Handlebars from 'handlebars';
 // Handlebarsヘルパー関数を登録
 Handlebars.registerHelper('techIcon', function(icon, name) {
   return new Handlebars.SafeString(
-    `<div align="center">
+    `<div align="center" style="display: inline-block; margin: 5px;">
       <img src="${icon}" width="40" height="40" alt="${name}" title="${name}" />
       <br>
       <sub>${name}</sub>
