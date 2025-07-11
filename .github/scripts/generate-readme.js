@@ -13,6 +13,27 @@ Handlebars.registerHelper('filterByCategory', function(items, category, options)
   return filtered.map(item => options.fn(item)).join('');
 });
 
+Handlebars.registerHelper('tableIcons', function(items, category, columns) {
+  const filtered = items.filter(item => item.category === category);
+  let result = '';
+  
+  for (let i = 0; i < filtered.length; i += columns) {
+    result += '| ';
+    for (let j = 0; j < columns; j++) {
+      const item = filtered[i + j];
+      if (item) {
+        result += `<img src="${item.icon}" width="40" height="40" alt="${item.name}" title="${item.name}" /> `;
+      } else {
+        result += ' ';
+      }
+      result += '| ';
+    }
+    result += '\n';
+  }
+  
+  return new Handlebars.SafeString(result);
+});
+
 Handlebars.registerHelper('formatDate', function(date) {
   return date.toLocaleDateString('ja-JP');
 });
