@@ -51,7 +51,7 @@ async function validateIconUrls(technologies) {
   const iconUrls = technologies.map(tech => ({
     name: tech.name,
     category: tech.category,
-    url: tech.icon.startsWith('http') ? tech.icon : `${DEV_ICONS_BASE_URL}${tech.icon}`
+    url: tech.icon
   }));
   
   console.log(`🔍 Validating ${iconUrls.length} icon URLs...`);

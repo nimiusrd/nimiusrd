@@ -10,92 +10,92 @@
   "technologies": [
     {
       "name": "JavaScript",
-      "icon": "javascript/javascript-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       "category": "language"
     },
     {
       "name": "TypeScript",
-      "icon": "typescript/typescript-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
       "category": "language"
     },
     {
       "name": "Python",
-      "icon": "python/python-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
       "category": "language"
     },
     {
       "name": "Go",
-      "icon": "go/go-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
       "category": "language"
     },
     {
       "name": "Ruby",
-      "icon": "ruby/ruby-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg",
       "category": "language"
     },
     {
       "name": "React",
-      "icon": "react/react-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       "category": "framework"
     },
     {
       "name": "Next.js",
-      "icon": "nextjs/nextjs-original-wordmark.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
       "category": "framework"
     },
     {
       "name": "Vue.js",
-      "icon": "vuejs/vuejs-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
       "category": "framework"
     },
     {
       "name": "Rails",
-      "icon": "rails/rails-original-wordmark.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
       "category": "framework"
     },
     {
       "name": "Flask",
-      "icon": "flask/flask-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
       "category": "framework"
     },
     {
       "name": "FastAPI",
-      "icon": "fastapi/fastapi-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
       "category": "framework"
     },
     {
       "name": "Google Cloud",
-      "icon": "googlecloud/googlecloud-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg",
       "category": "cloud"
     },
     {
       "name": "Azure",
-      "icon": "azure/azure-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
       "category": "cloud"
     },
     {
       "name": "Firebase",
-      "icon": "firebase/firebase-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg",
       "category": "cloud"
     },
     {
       "name": "Docker",
-      "icon": "docker/docker-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
       "category": "devops"
     },
     {
       "name": "Kubernetes",
-      "icon": "kubernetes/kubernetes-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg",
       "category": "devops"
     },
     {
       "name": "GitHub",
-      "icon": "github/github-original-wordmark.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg",
       "category": "devops"
     },
     {
       "name": "MySQL",
-      "icon": "mysql/mysql-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
       "category": "database"
     },
     {
@@ -110,12 +110,12 @@
     },
     {
       "name": "GraphQL",
-      "icon": "graphql/graphql-plain.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
       "category": "api"
     },
     {
       "name": "OpenAPI",
-      "icon": "openapi/openapi-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openapi/openapi-original.svg",
       "category": "api"
     }
   ],
