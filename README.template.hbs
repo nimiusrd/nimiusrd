@@ -9,16 +9,24 @@
 ## 🛠️ 技術的スキル
 
 ### 💻 言語・フレームワーク
-| | | | | | |
-|---|---|---|---|---|---|
-{{{tableIcons technologies "language" 6}}}
-{{{tableIcons technologies "framework" 6}}}
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+{{#filterByCategory technologies "language"}}
+  {{{techIcon icon name}}}
+{{/filterByCategory}}
+{{#filterByCategory technologies "framework"}}
+  {{{techIcon icon name}}}
+{{/filterByCategory}}
+</div>
 
 ### ☁️ インフラ・クラウド
-| | | | | | |
-|---|---|---|---|---|---|
-{{{tableIcons technologies "cloud" 6}}}
-{{{tableIcons technologies "devops" 6}}}
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+{{#filterByCategory technologies "cloud"}}
+  {{{techIcon icon name}}}
+{{/filterByCategory}}
+{{#filterByCategory technologies "devops"}}
+  {{{techIcon icon name}}}
+{{/filterByCategory}}
+</div>
 
 ## 📞 連絡先
 
