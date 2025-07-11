@@ -49,7 +49,7 @@
 
 ## 🤝 お問い合わせ
 
-- 📫 Email: nimiusrd@gmail.com
+- 📫 Email: nimius.rd+gh@gmail.com
 - 🌐 Blog: https://zenn.dev/nimiusrd
 - 🐙 GitHub: https://github.com/nimiusrd
 
