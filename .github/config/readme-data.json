@@ -94,6 +94,11 @@
       "category": "cicd"
     },
     {
+      "name": "Cloud Build",
+      "icon": "https://icon.icepanel.io/GCP/svg/Cloud-Build.svg",
+      "category": "cicd"
+    },
+    {
       "name": "MySQL",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
       "category": "framework"
@@ -109,6 +114,16 @@
       "category": "cloud"
     },
     {
+      "name": "Cloud Run",
+      "icon": "https://icon.icepanel.io/GCP/svg/Cloud-Run.svg",
+      "category": "cloud"
+    },
+    {
+      "name": "Cloud Workflows",
+      "icon": "https://icon.icepanel.io/GCP/svg/Workflows.svg",
+      "category": "cloud"
+    },
+    {
       "name": "GraphQL",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
       "category": "framework"
@@ -117,6 +132,11 @@
       "name": "OpenAPI",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openapi/openapi-original.svg",
       "category": "framework"
+    },
+    {
+      "name": "Sentry",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sentry/sentry-original.svg",
+      "category": "monitoring"
     }
   ],
   "capabilities": [
