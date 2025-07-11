@@ -81,22 +81,22 @@
     {
       "name": "Docker",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-      "category": "devops"
+      "category": "container"
     },
     {
       "name": "Kubernetes",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg",
-      "category": "devops"
+      "category": "container"
     },
     {
-      "name": "GitHub",
+      "name": "GitHub Actions",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg",
-      "category": "devops"
+      "category": "cicd"
     },
     {
       "name": "MySQL",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-      "category": "cloud"
+      "category": "framework"
     },
     {
       "name": "Firestore",
@@ -111,12 +111,12 @@
     {
       "name": "GraphQL",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
-      "category": "cloud"
+      "category": "framework"
     },
     {
       "name": "OpenAPI",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openapi/openapi-original.svg",
-      "category": "cloud"
+      "category": "framework"
     }
   ],
   "capabilities": [
