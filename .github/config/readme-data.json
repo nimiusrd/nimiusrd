@@ -33,16 +33,6 @@
       "category": "language"
     },
     {
-      "name": "Scala",
-      "icon": "scala/scala-original.svg",
-      "category": "language"
-    },
-    {
-      "name": "Rust",
-      "icon": "rust/rust-original.svg",
-      "category": "language"
-    },
-    {
       "name": "React",
       "icon": "react/react-original.svg",
       "category": "framework"
@@ -69,7 +59,7 @@
     },
     {
       "name": "FastAPI",
-      "icon": "fastapi/fastapi-original-wordmark.svg",
+      "icon": "fastapi/fastapi-original.svg",
       "category": "framework"
     },
     {
