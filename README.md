@@ -47,11 +47,12 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openapi/openapi-original.svg" width="40" height="40" alt="OpenAPI" />
 </p>
 
-## 🤝 お問い合わせ
+## 📞 連絡先
 
 - 📫 Email: nimius.rd+gh@gmail.com
 - 🌐 Blog: https://zenn.dev/nimiusrd
 - 🐙 GitHub: https://github.com/nimiusrd
+- 🐦 X: https://x.com/nimiusxp
 
 ---
 
