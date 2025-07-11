@@ -3,8 +3,10 @@ import Handlebars from 'handlebars';
 
 // Handlebarsヘルパー関数を登録
 Handlebars.registerHelper('techIcon', function(icon, name) {
+  // フルURLかどうかを判定
+  const iconUrl = icon.startsWith('http') ? icon : `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${icon}`;
   return new Handlebars.SafeString(
-    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${icon}" width="40" height="40" alt="${name}" />`
+    `<img src="${iconUrl}" width="40" height="40" alt="${name}" />`
   );
 });
 
