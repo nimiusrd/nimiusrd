@@ -101,6 +101,11 @@
       "name": "GraphQL",
       "icon": "graphql/graphql-plain.svg",
       "category": "api"
+    },
+    {
+      "name": "OpenAPI",
+      "icon": "openapi/openapi-original.svg",
+      "category": "api"
     }
   ],
   "capabilities": [
