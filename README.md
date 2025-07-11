@@ -48,6 +48,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg" width="40" height="40" alt="Firebase" title="Firebase" />
   <img src="https://icon.icepanel.io/GCP/svg/Firestore.svg" width="40" height="40" alt="Firestore" title="Firestore" />
   <img src="https://icon.icepanel.io/GCP/svg/Cloud-Storage.svg" width="40" height="40" alt="Cloud Storage" title="Cloud Storage" />
+  <img src="https://icon.icepanel.io/GCP/svg/Cloud-Run.svg" width="40" height="40" alt="Cloud Run" title="Cloud Run" />
+  <img src="https://icon.icepanel.io/GCP/svg/Workflows.svg" width="40" height="40" alt="Cloud Workflows" title="Cloud Workflows" />
 </p>
 
 **コンテナ／IaC**
@@ -59,6 +61,14 @@
 **CI/CD**
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" width="40" height="40" alt="GitHub Actions" title="GitHub Actions" />
+  <img src="https://icon.icepanel.io/GCP/svg/Cloud-Build.svg" width="40" height="40" alt="Cloud Build" title="Cloud Build" />
+</p>
+
+### 🔧 運用・品質保証
+
+**モニタリング／ロギング**
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sentry/sentry-original.svg" width="40" height="40" alt="Sentry" title="Sentry" />
 </p>
 
 ## 📞 連絡先
