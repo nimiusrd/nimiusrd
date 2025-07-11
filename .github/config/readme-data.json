@@ -40,7 +40,7 @@
     },
     {
       "name": "Next.js",
-      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg",
       "category": "framework"
     },
     {
@@ -55,7 +55,7 @@
     },
     {
       "name": "Flask",
-      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg",
       "category": "framework"
     },
     {
@@ -96,12 +96,12 @@
     {
       "name": "MySQL",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-      "category": "database"
+      "category": "cloud"
     },
     {
       "name": "Firestore",
       "icon": "https://icon.icepanel.io/GCP/svg/Firestore.svg",
-      "category": "database"
+      "category": "cloud"
     },
     {
       "name": "Cloud Storage",
@@ -111,12 +111,12 @@
     {
       "name": "GraphQL",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
-      "category": "api"
+      "category": "cloud"
     },
     {
       "name": "OpenAPI",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openapi/openapi-original.svg",
-      "category": "api"
+      "category": "cloud"
     }
   ],
   "capabilities": [

@@ -3,7 +3,6 @@ import https from 'https';
 import http from 'http';
 import { URL } from 'url';
 
-const DEV_ICONS_BASE_URL = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/';
 
 /**
  * HTTPリクエストでURLの有効性を確認
